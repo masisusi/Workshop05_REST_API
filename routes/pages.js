@@ -8,27 +8,23 @@ function sendPage(req, res, fileName) {
 }
 
 router.get('/', (req, res) => {
-  // TODO (student): Serve public/index.html.
-
-  return res.status(501).send('TODO: implement GET /');
+  // Serve public/index.html.
+  sendPage(req, res, 'index.html');
 });
 
 router.get('/about', (req, res) => {
-  // TODO (student): Serve public/about.html.
-
-  return res.status(501).send('TODO: implement GET /about');
+  // Serve public/about.html.
+  sendPage(req, res, 'about.html');
 });
 
 router.get('/contact', (req, res) => {
-  // TODO (student): Serve public/contact.html.
-
-  return res.status(501).send('TODO: implement GET /contact');
+  // Serve public/contact.html.
+  sendPage(req, res, 'contact.html');
 });
 
 router.get('/blog', (req, res) => {
-  // TODO (student): Keep this route working after moving page routes into this router.
-
-  return res.status(501).send('TODO: implement GET /blog');
+  // Keep this route working after moving page routes into this router.
+  sendPage(req, res, 'blog.html');
 });
 
 module.exports = router;
