@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 dist/
 coverage/
-
-
 Solution/
+
+# Local course exercises
+tuntiharjoitukset/
